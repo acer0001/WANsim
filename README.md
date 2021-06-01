@@ -31,25 +31,16 @@ The script uses Linux QoS `tc` commands in the background to dynamically change 
 
 Please choose from the following options:
 
- WAN 1 - MPLS (T1) Network
-
 1. Typical WAN                   BW: 500 kbps     DLY: ~100ms    LOSS: 0.5%
 2. LFN WAN (T1) (HSTCP/MXTCP)    BW: 1.5 mbps     DLY: ~10ms     LOSS: 1%
 3. Satellite WAN (SCPS)          BW: 2 mbps       DLY: ~500ms    LOSS: 2%
 4. Typical LAN                   BW: 100 mbps     DLY: < ~5ms    LOSS: 0%
-
- WAN 2 - Intenet Public Network
-
-5. Typical WAN                   BW: 500 kbps     DLY: ~100ms    LOSS: 0.5%
-6. LFN WAN (T1) (HSTCP/MXTCP)    BW: 1.5 mbps     DLY: ~10ms     LOSS: 1%
-7. Satellite WAN (SCPS)          BW: 2 mbps       DLY: ~500ms    LOSS: 2%
-8. Typical LAN                   BW: 100 mbps     DLY: < ~5ms    LOSS: 0%
 
 S. Show Currect Settings
 C. Custom Bandwidth and Latency - Choose your own!
 D. Defaults  - Revert All WAN Networks to Original Settings
 Q. Quit menu and close console window
 
-Enter choice [1,2,3,4,5,6,7,8,s,c,d,q]
+Enter choice [1,2,3,4,s,c,d,q]
 ```
 8. Enjoy!
