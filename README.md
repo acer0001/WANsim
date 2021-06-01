@@ -6,6 +6,7 @@ The script uses Linux QoS `tc` commands in the background to dynamically change 
 
 ### Prequisites:
 - Any Linux distribution
+- brutils package
 - SSH server
 
 ### Setup:
