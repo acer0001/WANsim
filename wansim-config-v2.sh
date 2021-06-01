@@ -1,18 +1,12 @@
 #!/bin/bash
 
 # wansim-config.sh
-# john.jones@riverbed.com jefferson.martin@riverbed.com
 # This script is designed to run when the user "wanconfig"
 # logs in. The menu will show options for changing bandwidth,
 # delay and loss. According to the user's choice, the
 # appropriate tc commands will be run to adjust these
 # settings.
 # creds - wanconfig::wanconfig
-#
-# changelog:
-# 08/30/16 - added WAN2 options
-# 01/05/17 - configured for dual WAN, custom BW & Latency
-#  and show currnet settings
 
 red='\e[0;31m'
 blue='\e[0;34m'
