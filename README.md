@@ -17,7 +17,7 @@ The script uses Linux QoS `tc` commands in the background to dynamically change 
                                                           eth2
    ```                                                     
 3. Create a user that will be used to only run the WANsim script. Assign a password - `adduser wansimuser`, `passwd wansimuser`.
-4. Copy the wansim-config.v2 file to a executable directory in the user's home directory - `/home/wansimuser/scripts/wansim-config.sh`.
+4. Copy the wansim-config.v2 file to a executable directory in the user's home directory - `/home/wansimuser/scripts/wansim-config-v2.sh`.
 5. Change the permission so that only the user can execute it - `chmod 700 wansim-config.sh`
 6. Change the shell parameter for the user in the `/etc/password` file to the name of the script.
   ```
