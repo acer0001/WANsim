@@ -11,7 +11,7 @@ The script uses Linux QoS `tc` commands in the background to dynamically change 
 ### Setup:
 1. Create a layer-2 bridge between two interfaces so that the traffic simulation is transparent to the endpoint systems. Use your distribution's documentation for instructions for confoguring Linux bridges.
   ```
-  root@wansim:/etc# brctl show
+  root@wansim:/# brctl show
   bridge name     bridge id               STP enabled     interfaces
   wanbr1          8000.0250011126e2       yes             eth1
                                                           eth2
